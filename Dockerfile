@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/sonarr:preview
+FROM linuxserver/sonarr:preview
 
 RUN apt-get update
 RUN apt-get install --no-install-recommends -y \
