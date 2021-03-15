@@ -1,4 +1,4 @@
-FROM linuxserver/sonarr:preview
+FROM linuxserver/sonarr
 
 RUN apt-get update
 RUN apt-get install --no-install-recommends -y \
